@@ -1,0 +1,21 @@
+.navPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  &__center {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    &_sun {
+      border: none;
+      background: 0;
+    }
+  }
+}

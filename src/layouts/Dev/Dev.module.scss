@@ -1,0 +1,16 @@
+.dev {
+  padding: 24px 304px 80px;
+  text-align: center;
+  &__title {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 24px 0 40px;
+  }
+}

@@ -1,0 +1,36 @@
+.hero {
+  padding: 20px 200px 120px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left {
+    padding: 100px 0;
+  }
+  &__title {
+    width: 692px;
+    height: 176px;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+  &__subtitle {
+    margin: 32px 0;
+    color: rgb(13, 13, 18);
+    width: 692px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  &__bot {
+    margin-top: 60px;
+    &_text {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 120%;
+    }
+  }
+}

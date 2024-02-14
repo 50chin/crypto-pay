@@ -1,0 +1,19 @@
+.cardIcon {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  &__icons {
+    animation: animation-icons 4s ease-in-out infinite;
+  }
+  &__text {
+    text-align: center;
+    margin-top: 12px;
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+
+@keyframes animation-icons {
+}

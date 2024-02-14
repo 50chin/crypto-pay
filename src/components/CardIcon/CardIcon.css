@@ -1,0 +1,231 @@
+#icon-0 {
+  animation: icon-0 4s infinite;
+}
+#text-0 {
+  animation: text-0 4s infinite;
+}
+
+#icon-1 {
+  animation: icon-1 4s infinite;
+}
+#text-1 {
+  animation: text-1 4s infinite;
+}
+#icon-2 {
+  animation: icon-2 4s infinite;
+}
+#text-2 {
+  animation: text-2 4s infinite;
+}
+#icon-3 {
+  animation: icon-3 4s infinite;
+}
+#text-3 {
+  animation: text-3 4s infinite;
+}
+#icon-4 {
+  animation: icon-4 4s infinite;
+}
+#text-4 {
+  animation: text-4 4s infinite;
+}
+#icon-5 {
+  animation: icon-5 4s infinite;
+}
+#text-5 {
+  animation: text-5 4s infinite;
+}
+#icon-6 {
+  animation: icon-6 4s infinite;
+}
+#text-6 {
+  animation: text-6 4s infinite;
+}
+#icon-7 {
+  animation: icon-7 4s infinite;
+}
+#text-7 {
+  animation: text-7 4s infinite;
+}
+
+@keyframes icon-0 {
+  0% {
+    transform: scale(1);
+  }
+  6.25% {
+    transform: scale(1.1);
+  }
+  12.5% {
+    transform: scale(1);
+  }
+}
+
+@keyframes icon-1 {
+  12.5% {
+    transform: scale(1);
+  }
+  18.75% {
+    transform: scale(1.1);
+  }
+  25% {
+    transform: scale(1);
+  }
+}
+
+@keyframes icon-2 {
+  25% {
+    transform: scale(1);
+  }
+  31.25% {
+    transform: scale(1.1);
+  }
+  37.5% {
+    transform: scale(1);
+  }
+}
+@keyframes icon-3 {
+  37.5% {
+    transform: scale(1);
+  }
+  43.75% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes icon-4 {
+  50% {
+    transform: scale(1);
+  }
+  56.25% {
+    transform: scale(1.1);
+  }
+  62.5% {
+    transform: scale(1);
+  }
+}
+@keyframes icon-5 {
+  62.5% {
+    transform: scale(1);
+  }
+  68.75% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+@keyframes icon-6 {
+  75% {
+    transform: scale(1);
+  }
+  81.25% {
+    transform: scale(1.1);
+  }
+  87.5% {
+    transform: scale(1);
+  }
+}
+@keyframes icon-7 {
+  87.5% {
+    transform: scale(1);
+  }
+  93.75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes text-0 {
+  0% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  6.25% {
+    color: black;
+  }
+  12.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+
+@keyframes text-1 {
+  12.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  18.75% {
+    color: black;
+  }
+  25% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+
+@keyframes text-2 {
+  25% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  31.25% {
+    color: black;
+  }
+  37.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+@keyframes text-3 {
+  37.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  43.75% {
+    color: black;
+  }
+  50% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+@keyframes text-4 {
+  50% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  56.25% {
+    color: black;
+  }
+  62.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+@keyframes text-5 {
+  62.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  68.75% {
+    color: black;
+  }
+  75% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+@keyframes text-6 {
+  75% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  81.25% {
+    color: black;
+  }
+  87.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}
+@keyframes text-7 {
+  87.5% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+  93.75% {
+    color: black;
+  }
+  100% {
+    color: rgba(17, 17, 17, 0.4);
+  }
+}

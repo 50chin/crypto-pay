@@ -1,0 +1,45 @@
+.button {
+  border-radius: 900px;
+  border: none;
+  line-height: 120%;
+  font-family: Inter;
+
+  &_large {
+    padding: 18px 42px;
+    font-size: 20px;
+  }
+
+  &_small {
+    font-size: 18px;
+    padding: 12px 32px;
+  }
+
+  &_fill {
+    background: rgb(65, 164, 223);
+    &:hover {
+      background: rgb(41, 126, 226);
+    }
+  }
+
+  &_semiFill {
+    background: rgba(41, 126, 226, 0.12);
+    &:hover {
+      background: rgba(65, 164, 223, 0.16);
+    }
+  }
+
+  &_dark {
+    background: 0;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    :hover {
+      border: 1px solid rgb(255, 255, 255);
+    }
+  }
+  &_white {
+    color: rgb(255, 255, 255);
+  }
+
+  &_blue {
+    color: rgb(41, 126, 226);
+  }
+}

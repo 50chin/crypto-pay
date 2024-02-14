@@ -1,0 +1,17 @@
+.apiIcon {
+  margin-bottom: 64px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 992px;
+    margin: 0 auto;
+    list-style: none;
+  }
+  &__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 175px;
+  }
+}
