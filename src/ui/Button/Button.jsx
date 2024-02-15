@@ -10,7 +10,7 @@ export const Button = ({ children, size, variant, color }) => {
         [s.button_small]: size === 'small',
         [s.button_fill]: variant === 'fill',
         [s.button_semiFill]: variant === 'semiFill',
-        [s.button_dark]: variant === 'empty',
+        [s.button_empty]: variant === 'empty',
         [s.button_white]: color === 'white',
         [s.button_blue]: color === 'blue',
       })}

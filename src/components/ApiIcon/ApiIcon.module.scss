@@ -1,17 +1,15 @@
 .apiIcon {
   margin-bottom: 64px;
   &__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 992px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     margin: 0 auto;
     list-style: none;
+    min-width: 992px;
+    padding: 0;
   }
   &__text {
     font-size: 20px;
-    font-weight: 500;
-    line-height: 120%;
-    max-width: 175px;
+    font-weight: 400;
   }
 }

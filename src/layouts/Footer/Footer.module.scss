@@ -1,0 +1,10 @@
+.footer {
+  background: rgb(35, 35, 40);
+  padding: 100px 200px 40px;
+  &__subtitle {
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

@@ -7,7 +7,12 @@ export const Header = () => {
   return (
     <div className={s.header}>
       <Container>
-        <NavPanel icon="sun" color="black"></NavPanel>
+        <NavPanel
+          icon="sun"
+          color="black"
+          variant="semiFill"
+          colorBtn="blue"
+        ></NavPanel>
       </Container>
     </div>
   );

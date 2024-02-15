@@ -11,7 +11,7 @@ const objText = [
   { text: "How to start" },
 ];
 
-export const NavPanel = ({ color, icon }) => {
+export const NavPanel = ({ color, icon, colorBtn, variant }) => {
   // мэп текста для ссылок
   const listNav = objText.map((el) => (
     <li key={el.text}>
@@ -37,7 +37,11 @@ export const NavPanel = ({ color, icon }) => {
             {" "}
             {icon === "sun" && <img src={iconSun} alt="" />}
           </button>
-          <Button size="large" variant="semiFill" color="blue">
+          <Button
+            size="large"
+            variant={variant === "semiFill" ? "semiFill" : "empty"}
+            color={colorBtn === "blue" ? "blue" : "white"}
+          >
             Get started
           </Button>
         </div>
