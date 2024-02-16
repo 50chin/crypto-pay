@@ -22,3 +22,7 @@ a {
 span {
   color: rgb(65, 164, 223);
 }
+
+button {
+  cursor: pointer;
+}
