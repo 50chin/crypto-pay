@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import s from './Slide.module.scss';
-import slide1Img from '../../assets/img/slides/slide-1.webp';
-import slide2Img from '../../assets/img/slides/slide-2.webp';
-import slide3Img from '../../assets/img/slides/slide-3.webp';
-import navImg from '../../assets/img/nav/nav.svg';
-import { Button } from '../../ui/Button/Button';
+import React, { useState } from "react";
+import s from "./Slide.module.scss";
+import slide1Img from "../../assets/img/slides/1.webp";
+import slide2Img from "../../assets/img/slides/2.webp";
+import slide3Img from "../../assets/img/slides/3.webp";
+import navImg from "../../assets/img/nav/nav.svg";
+import { Button } from "../../ui/Button/Button";
 
 const positions = {
   1: 0,
@@ -106,7 +106,7 @@ export const Slide = () => {
             onClick={() => handleClick(1)}
             style={{
               background:
-                count === 1 ? 'rgb(65, 164, 223)' : 'rgba(255, 255, 255, 0.24)',
+                count === 1 ? "rgb(65, 164, 223)" : "rgba(255, 255, 255, 0.24)",
             }}
           >
             <img src={navImg} alt="" />
@@ -116,7 +116,7 @@ export const Slide = () => {
             onClick={() => handleClick(2)}
             style={{
               background:
-                count === 2 ? 'rgb(65, 164, 223)' : 'rgba(255, 255, 255, 0.24)',
+                count === 2 ? "rgb(65, 164, 223)" : "rgba(255, 255, 255, 0.24)",
             }}
           >
             <img src={navImg} alt="" />
@@ -126,7 +126,7 @@ export const Slide = () => {
             onClick={() => handleClick(3)}
             style={{
               background:
-                count === 3 ? 'rgb(65, 164, 223)' : 'rgba(255, 255, 255, 0.24)',
+                count === 3 ? "rgb(65, 164, 223)" : "rgba(255, 255, 255, 0.24)",
             }}
           >
             <img src={navImg} alt="" />

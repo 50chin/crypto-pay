@@ -4,9 +4,9 @@ import s from './CryptoPayCards.module.scss';
 import imgFirst from '../../assets/img/cryptoPay/1.svg';
 import imgSecond from '../../assets/img/cryptoPay/2.svg';
 import imgThird from '../../assets/img/cryptoPay/3.svg';
-import img1 from '../../assets/img/cryptoPay/img1.svg';
-import img2 from '../../assets/img/cryptoPay/img2.svg';
-import img3 from '../../assets/img/cryptoPay/img3.svg';
+import img1 from '../../assets/img/cryptoPay/img1.webp';
+import img2 from '../../assets/img/cryptoPay/img2.webp';
+import img3 from '../../assets/img/cryptoPay/img3.webp';
 
 const cardObj = [
   {

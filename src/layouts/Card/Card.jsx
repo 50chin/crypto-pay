@@ -1,31 +1,31 @@
-import React from 'react';
-import s from './Card.module.scss';
-import { Container } from '../Container';
-import { CardIcon } from '../../components/CardIcon/CardIcon';
-import btnAnim from '../../assets/img/gif/btnAnim.mp4';
-import exchAnim from '../../assets/img/gif/exchAnim.mp4';
-import statsAnim from '../../assets/img/gif/statsAnim.mp4';
-import phoneAnim from '../../assets/img/gif/phoneAnim.mp4';
-import msgAnim from '../../assets/img/gif/msgAnim.mp4';
+import React from "react";
+import s from "./Card.module.scss";
+import { Container } from "../Container";
+import { CardIcon } from "../../components/CardIcon/CardIcon";
+import btnAnim from "../../assets/img/gif/btnAnim.webm";
+import exchAnim from "../../assets/img/gif/exchAnim.webm";
+import statsAnim from "../../assets/img/gif/statsAnim.webm";
+import phoneAnim from "../../assets/img/gif/phoneAnim.webm";
+import msgAnim from "../../assets/img/gif/msgAnim.webm";
 
 export const Card = () => {
   return (
-    <section className={s.cards}>
+    <section className={s.cards} id="card">
       <Container>
         <div className={s.cards__wrapper}>
-          <div className={s.cards__card + ' ' + s.top}>
+          <div className={s.cards__card + " " + s.top}>
             <h3 className={s.cards__title}>
               Accept a wide range of cryptocurrencies
             </h3>
             <p className={s.cards__subtitle}>
-              Bill any supported cryptocurrencies with asset parameter in{' '}
+              Bill any supported cryptocurrencies with asset parameter in{" "}
               <span>GetInvoice</span> method
             </p>
             <div className={s.cards__icons}>
               <CardIcon></CardIcon>
             </div>
           </div>
-          <div className={s.cards__card + ' ' + s.left}>
+          <div className={s.cards__card + " " + s.left}>
             <video
               className={s.cards__video_mini}
               playsInline
@@ -41,7 +41,7 @@ export const Card = () => {
               and tap Create App to get API Token
             </p>
           </div>
-          <div className={s.cards__card + ' ' + s.left2}>
+          <div className={s.cards__card + " " + s.left2}>
             <video
               className={s.cards__video_mini}
               playsInline
@@ -62,7 +62,7 @@ export const Card = () => {
               the <span>getExchangeRates</span> API method
             </p>
           </div>
-          <div className={s.cards__card + ' ' + s.right}>
+          <div className={s.cards__card + " " + s.right}>
             <video
               className={s.cards__video}
               playsInline
@@ -74,13 +74,13 @@ export const Card = () => {
             ></video>
             <h4 className={s.cards__title}>Payment statistics</h4>
             <p className={s.cards__subtitle}>
-              Open <span>@CryptoBot</span>, go to <span>Crypto Pay</span> and{' '}
+              Open <span>@CryptoBot</span>, go to <span>Crypto Pay</span> and{" "}
               <span>My Apps</span>,
               <br />
               App Name to get Statistics
             </p>
           </div>
-          <div className={s.cards__card + ' ' + s.bot}>
+          <div className={s.cards__card + " " + s.bot}>
             <div className={s.bot__left}>
               <video
                 className={s.cards__video}
@@ -97,7 +97,7 @@ export const Card = () => {
               </p>
             </div>
           </div>
-          <div className={s.cards__card + ' ' + s.bot2}>
+          <div className={s.cards__card + " " + s.bot2}>
             <div className={s.bot__right}>
               <video
                 className={s.cards__video_mini}

@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  transition: 1s;
+}
 
 body {
   font-family: Inter;
@@ -17,6 +21,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: red;
 }
 
 span {

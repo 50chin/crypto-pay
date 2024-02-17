@@ -2,11 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  padding-top: 40px;
+  &__logo {
+    margin-right: 177px;
+  }
   &__center {
     display: flex;
     gap: 32px;
     list-style-type: none;
+  }
+  &__link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
   }
   &__right {
     display: flex;

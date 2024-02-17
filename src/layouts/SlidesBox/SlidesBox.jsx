@@ -5,7 +5,7 @@ import { Slide } from '../../components/Slide/Slide';
 
 export const SlidesBox = () => {
   return (
-    <section className={s.slideBox}>
+    <section className={s.slideBox} id='slide'>
       <Container>
         <Slide />
       </Container>

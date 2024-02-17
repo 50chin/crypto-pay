@@ -2,8 +2,8 @@ import React from "react";
 import s from "./Hero.module.scss";
 import { Container } from "../Container";
 import { Button } from "../../ui/Button/Button";
-import bots from "../../assets/img/hero/bots.svg";
-import phone from "../../assets/img/hero/phone.svg";
+import bots from "../../assets/img/hero/bots.webp";
+import phone from "../../assets/img/hero/phone.webp";
 
 export const Hero = () => {
   return (
